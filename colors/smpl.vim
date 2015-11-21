@@ -131,8 +131,35 @@ hi markdownH6  ctermfg=241  ctermbg=NONE  cterm=bold
 "}}}
 
 " Javascript {{{
-hi javascriptFunction  ctermfg=136  ctermbg=NONE  cterm=bold
-" TODO  …
+
+" Basic {{{
+hi javascriptFunction     ctermfg=136   ctermbg=NONE  cterm=bold
+hi javaScriptIdentifier   ctermfg=136   ctermbg=NONE  cterm=NONE
+hi javaScriptRepeat       ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi javascriptConditional  ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi javascriptStatement    ctermfg=NONE  ctermbg=NONE  cterm=bold
+"}}}
+
+" github.com/pangloss/vim-javascript {{{
+hi  jsAsyncKeyword    ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi  jsBraces          ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi  jsClass           ctermfg=136   ctermbg=NONE  cterm=bold
+hi  jsConditional     ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi  jsDocType         ctermfg=NONE  ctermbg=NONE  cterm=NONE
+hi  jsDocTypeNoParam  ctermfg=NONE  ctermbg=NONE  cterm=NONE
+hi  jsException       ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi  jsFuncBraces      ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi  jsFuncCall        ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi  jsFunction        ctermfg=136   ctermbg=NONE  cterm=bold
+hi  jsKeyword         ctermfg=239   ctermbg=NONE  cterm=bold
+hi  jsLabel           ctermfg=239   ctermbg=NONE  cterm=bold
+hi  jsParens          ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi  jsRepeat          ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi  jsReturn          ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi  jsStatement       ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi  jsStorageClass    ctermfg=136   ctermbg=NONE  cterm=NONE
+"}}}
+
 "}}}
 
 " vim:foldmethod=marker:foldlevel=0

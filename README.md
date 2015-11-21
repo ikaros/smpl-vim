@@ -5,9 +5,9 @@ A simple colorscheme for vim.
 - [x] Go
 - [x] Ruby
 - [x] Markdown
+- [x] Javascript
 - [ ] HTML
 - [ ] CSS
-- [ ] Javascript
 - [ ] Python
 - [ ] C
 - [ ] Shell
