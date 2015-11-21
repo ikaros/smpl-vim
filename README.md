@@ -9,7 +9,7 @@ A simple colorscheme for vim.
 - [ ] HTML
 - [ ] CSS
 - [ ] Python
-- [ ] C
+- [x] C
 - [ ] Shell
 - [ ] Make
 - [ ] XML
