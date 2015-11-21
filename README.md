@@ -6,7 +6,7 @@ A simple colorscheme for vim.
 - [x] Ruby
 - [x] Markdown
 - [x] Javascript
-- [ ] HTML
+- [x] HTML
 - [ ] CSS
 - [ ] Python
 - [x] C

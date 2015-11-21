@@ -177,4 +177,10 @@ hi  cDefine        ctermfg=NONE  ctermbg=NONE  cterm=bold
 hi  cStructure     ctermfg=NONE  ctermbg=NONE  cterm=bold
 "}}}
 
-" vim:foldmethod=marker:foldlevel=0
+" HTML {{{
+hi  htmlSpecialTagName  ctermfg=166  ctermbg=NONE  cterm=bold
+hi  htmlTagName         ctermfg=166  ctermbg=NONE  cterm=bold
+hi  htmlTagN            ctermfg=166  ctermbg=NONE  cterm=bold
+"}}}
+
+" vim:foldmethod=marker:foldlevel=2
