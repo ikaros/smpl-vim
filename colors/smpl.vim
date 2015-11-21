@@ -51,6 +51,7 @@ hi Pmenu               ctermfg=NONE  ctermbg=NONE  cterm=reverse
 hi PmenuSel            ctermfg=NONE  ctermbg=NONE  cterm=bold
 hi PmenuSel            ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi PreProc             ctermfg=NONE  ctermbg=NONE  cterm=NONE
+hi Repeat              ctermfg=NONE  ctermbg=NONE  cterm=bold
 hi Search              ctermfg=255   ctermbg=240   cterm=NONE
 hi SignColumn          ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi Special             ctermfg=NONE  ctermbg=NONE  cterm=NONE
