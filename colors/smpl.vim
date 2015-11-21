@@ -123,12 +123,13 @@ hi rubyRepeat                  ctermfg=NONE  ctermbg=NONE  cterm=bold
 "}}}
 
 " Markdown {{{
-hi markdownH1  ctermfg=235  ctermbg=NONE  cterm=bold
-hi markdownH2  ctermfg=237  ctermbg=NONE  cterm=bold
-hi markdownH3  ctermfg=238  ctermbg=NONE  cterm=bold
-hi markdownH3  ctermfg=239  ctermbg=NONE  cterm=bold
-hi markdownH5  ctermfg=240  ctermbg=NONE  cterm=bold
-hi markdownH6  ctermfg=241  ctermbg=NONE  cterm=bold
+hi  markdownH1          ctermfg=235   ctermbg=NONE  cterm=bold
+hi  markdownH2          ctermfg=237   ctermbg=NONE  cterm=bold
+hi  markdownH3          ctermfg=238   ctermbg=NONE  cterm=bold
+hi  markdownH3          ctermfg=239   ctermbg=NONE  cterm=bold
+hi  markdownH5          ctermfg=240   ctermbg=NONE  cterm=bold
+hi  markdownH6          ctermfg=241   ctermbg=NONE  cterm=bold
+hi  markdownListMarker  ctermfg=NONE  ctermbg=NONE  cterm=NONE
 "}}}
 
 " Javascript {{{
