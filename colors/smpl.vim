@@ -159,7 +159,21 @@ hi  jsReturn          ctermfg=NONE  ctermbg=NONE  cterm=bold
 hi  jsStatement       ctermfg=NONE  ctermbg=NONE  cterm=bold
 hi  jsStorageClass    ctermfg=136   ctermbg=NONE  cterm=NONE
 "}}}
+"}}}
 
+" c {{{
+hi  cConditional   ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi  cConstant      ctermfg=239   ctermbg=NONE  cterm=bold
+hi  cFunction      ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi  cInclude       ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi  cLabel         ctermfg=239   ctermbg=NONE  cterm=bold
+hi  cPreCondit     ctermfg=25    ctermbg=NONE  cterm=bold
+hi  cRepeat        ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi  cStatement     ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi  cStorageClass  ctermfg=NONE  ctermbg=NONE  cterm=NONE
+hi  cType          ctermfg=25    ctermbg=NONE  cterm=NONE
+hi  cDefine        ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi  cStructure     ctermfg=NONE  ctermbg=NONE  cterm=bold
 "}}}
 
 " vim:foldmethod=marker:foldlevel=0
