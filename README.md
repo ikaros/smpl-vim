@@ -1,7 +1,7 @@
 # smpl
 A simple colorscheme for vim.
 
-## Supported Filetypes
+## Optimized Filetypes
 - [x] Go
 - [x] Ruby
 - [x] Markdown
