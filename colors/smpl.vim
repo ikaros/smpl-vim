@@ -184,4 +184,15 @@ hi  htmlTagName         ctermfg=166  ctermbg=NONE  cterm=bold
 hi  htmlTagN            ctermfg=166  ctermbg=NONE  cterm=bold
 "}}}
 
+" Scala {{{
+hi scalaKeyword                 ctermfg=88    ctermbg=NONE  cterm=bold
+hi scalaInstanceDeclaration     ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi scalaTypeDeclaration         ctermfg=NONE  ctermbg=NONE  cterm=NONE
+hi scalaSquareBracketsBrackets  ctermfg=NONE  ctermbg=NONE  cterm=NONE
+hi scalaDocLinks                ctermfg=NONE  ctermbg=NONE  cterm=NONE
+hi scalaKeywordModifier         ctermfg=88    ctermbg=NONE  cterm=NONE
+hi scalaNameDefinition          ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi scalaInstanceDeclaration     ctermfg=NONE  ctermbg=NONE  cterm=NONE
+"}}}
+
 " vim:foldmethod=marker:foldlevel=2
