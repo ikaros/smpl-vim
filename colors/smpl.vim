@@ -46,10 +46,10 @@ hi NonText             ctermfg=254   ctermbg=NONE  cterm=NONE
 hi Normal              ctermfg=235   ctermbg=254   cterm=none
 hi Number              ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi Operator            ctermfg=NONE  ctermbg=NONE  cterm=NONE
-hi Pmenu               ctermfg=NONE  ctermbg=NONE  cterm=NONE
-hi Pmenu               ctermfg=NONE  ctermbg=NONE  cterm=reverse
-hi PmenuSel            ctermfg=NONE  ctermbg=NONE  cterm=bold
-hi PmenuSel            ctermfg=NONE  ctermbg=NONE  cterm=NONE
+hi Pmenu               ctermfg=244   ctermbg=237   cterm=none
+hi PmenuSel            ctermfg=white ctermbg=237   cterm=bold
+hi PmenuThumb          ctermfg=none  ctermbg=33    cterm=none
+hi PmenuSbar           ctermfg=none  ctermbg=235   cterm=none
 hi PreProc             ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi Repeat              ctermfg=NONE  ctermbg=NONE  cterm=bold
 hi Search              ctermfg=255   ctermbg=240   cterm=NONE
