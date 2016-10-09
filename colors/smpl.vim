@@ -195,4 +195,20 @@ hi scalaNameDefinition          ctermfg=NONE  ctermbg=NONE  cterm=bold
 hi scalaInstanceDeclaration     ctermfg=NONE  ctermbg=NONE  cterm=NONE
 "}}}
 
+" Haskell {{{
+hi hsNumber                     ctermfg=25      ctermbg=NONE  cterm=NONE
+hi hsFloat                      ctermfg=25      ctermbg=NONE  cterm=NONE
+hi hsCharacter                  ctermfg=25      ctermbg=NONE  cterm=NONE
+hi hsString                     ctermfg=25      ctermbg=NONE  cterm=NONE
+hi hsFunction                   ctermfg=25      ctermbg=NONE  cterm=BOLD
+hi hsTypeName                   ctermfg=NONE    ctermbg=NONE  cterm=BOLD
+hi hsKeyword                    ctermfg=88      ctermbg=NONE  cterm=BOLD
+hi hsFunctionList               ctermfg=25      ctermbg=NONE  cterm=BOLD
+hi hsImport                     ctermfg=25      ctermbg=NONE  cterm=BOLD
+hi hsSpecialCharError           ctermfg=124     ctermbg=NONE  cterm=NONE
+hi hsSpecialChar                ctermfg=NONE    ctermbg=NONE  cterm=NONE
+hi hsOperator                   ctermfg=NONE    ctermbg=NONE  cterm=NONE
+" }}}
+
+
 " vim:foldmethod=marker:foldlevel=2
