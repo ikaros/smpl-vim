@@ -9,6 +9,7 @@ A simple colorscheme for vim.
 - [ ] Shell
 - [x] C
 - [x] Go
+- [x] Haskell
 - [x] HTML
 - [x] Javascript
 - [x] Markdown
