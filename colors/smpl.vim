@@ -34,7 +34,7 @@ hi Define              ctermfg=NONE  ctermbg=NONE  cterm=bold
 hi Directory           ctermfg=NONE  ctermbg=NONE  cterm=bold
 hi ErrorMsg            ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi Float               ctermfg=NONE  ctermbg=NONE  cterm=NONE
-hi Folded              ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi Folded              ctermfg=grey  ctermbg=NONE  cterm=NONE
 hi Function            ctermfg=NONE  ctermbg=NONE  cterm=bold
 hi Identifier          ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi IncSearch           ctermfg=255   ctermbg=33    cterm=NONE
