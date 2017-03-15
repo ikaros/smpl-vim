@@ -42,7 +42,7 @@ hi Keyword             ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi Label               ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi LineNr              ctermfg=grey  ctermbg=NONE  cterm=NONE
 hi MatchParen          ctermfg=NONE  ctermbg=NONE  cterm=reverse,bold
-hi NonText             ctermfg=254   ctermbg=NONE  cterm=NONE
+hi NonText             ctermfg=grey  ctermbg=NONE  cterm=NONE
 hi Normal              ctermfg=235   ctermbg=254   cterm=none
 hi Number              ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi Operator            ctermfg=NONE  ctermbg=NONE  cterm=NONE
