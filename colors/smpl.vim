@@ -50,7 +50,7 @@ hi Label               ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi LineNr              ctermfg=grey  ctermbg=NONE  cterm=NONE
 hi MatchParen          ctermfg=NONE  ctermbg=NONE  cterm=reverse,bold
 hi NonText             ctermfg=grey  ctermbg=NONE  cterm=NONE
-hi Normal              ctermfg=235   ctermbg=254   cterm=none
+hi Normal              ctermfg=NONE  ctermbg=NONE  cterm=none
 hi Number              ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi Operator            ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi Pmenu               ctermfg=244   ctermbg=237   cterm=none
