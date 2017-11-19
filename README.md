@@ -2,19 +2,20 @@
 A simple colorscheme for vim.
 
 ## Optimized Filetypes
+- [x] C
+- [x] Go
+- [x] Haskell
+- [x] HTML
+- [x] Javascript
+- [x] Markdown
+- [x] Ruby
+- [x] Scala
 - [ ] CSS
 - [ ] JSON
 - [ ] Make
 - [ ] Python
 - [ ] Shell
-- [x] C
-- [x] Go
-- [x] HTML
-- [x] Javascript
-- [x] Markdown
 - [ ] XML
-- [x] Ruby
-- [x] Scala
 
 ## License
 Copyright (c) 2015 Konstantin Kanellopoulos

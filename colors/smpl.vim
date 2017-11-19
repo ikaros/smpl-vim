@@ -41,7 +41,7 @@ hi Define              ctermfg=NONE  ctermbg=NONE  cterm=bold
 hi Directory           ctermfg=NONE  ctermbg=NONE  cterm=bold
 hi ErrorMsg            ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi Float               ctermfg=NONE  ctermbg=NONE  cterm=NONE
-hi Folded              ctermfg=NONE  ctermbg=NONE  cterm=bold
+hi Folded              ctermfg=grey  ctermbg=NONE  cterm=NONE
 hi Function            ctermfg=NONE  ctermbg=NONE  cterm=bold
 hi Identifier          ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi IncSearch           ctermfg=255   ctermbg=33    cterm=NONE
@@ -49,8 +49,8 @@ hi Keyword             ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi Label               ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi LineNr              ctermfg=grey  ctermbg=NONE  cterm=NONE
 hi MatchParen          ctermfg=NONE  ctermbg=NONE  cterm=reverse,bold
-hi NonText             ctermfg=254   ctermbg=NONE  cterm=NONE
-hi Normal              ctermfg=NONE   ctermbg=NONE   cterm=none
+hi NonText             ctermfg=grey  ctermbg=NONE  cterm=NONE
+hi Normal              ctermfg=235   ctermbg=254   cterm=none
 hi Number              ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi Operator            ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi Pmenu               ctermfg=244   ctermbg=237   cterm=none
@@ -201,5 +201,21 @@ hi scalaKeywordModifier         ctermfg=88    ctermbg=NONE  cterm=NONE
 hi scalaNameDefinition          ctermfg=NONE  ctermbg=NONE  cterm=bold
 hi scalaInstanceDeclaration     ctermfg=NONE  ctermbg=NONE  cterm=NONE
 "}}}
+
+" Haskell {{{
+hi hsNumber                     ctermfg=25      ctermbg=NONE  cterm=NONE
+hi hsFloat                      ctermfg=25      ctermbg=NONE  cterm=NONE
+hi hsCharacter                  ctermfg=25      ctermbg=NONE  cterm=NONE
+hi hsString                     ctermfg=25      ctermbg=NONE  cterm=NONE
+hi hsFunction                   ctermfg=25      ctermbg=NONE  cterm=BOLD
+hi hsTypeName                   ctermfg=NONE    ctermbg=NONE  cterm=BOLD
+hi hsKeyword                    ctermfg=88      ctermbg=NONE  cterm=BOLD
+hi hsFunctionList               ctermfg=25      ctermbg=NONE  cterm=BOLD
+hi hsImport                     ctermfg=25      ctermbg=NONE  cterm=BOLD
+hi hsSpecialCharError           ctermfg=124     ctermbg=NONE  cterm=NONE
+hi hsSpecialChar                ctermfg=NONE    ctermbg=NONE  cterm=NONE
+hi hsOperator                   ctermfg=NONE    ctermbg=NONE  cterm=NONE
+" }}}
+
 
 " vim:foldmethod=marker:foldlevel=2
