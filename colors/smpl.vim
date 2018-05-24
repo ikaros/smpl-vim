@@ -59,7 +59,7 @@ hi PmenuThumb          ctermfg=none  ctermbg=33    cterm=none
 hi PmenuSbar           ctermfg=none  ctermbg=235   cterm=none
 hi PreProc             ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi Repeat              ctermfg=NONE  ctermbg=NONE  cterm=bold
-hi Search              ctermfg=255   ctermbg=240   cterm=NONE
+hi Search              ctermfg=255   ctermbg=33 cterm=NONE
 hi SignColumn          ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi Special             ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi SpecialKey          ctermfg=NONE  ctermbg=NONE  cterm=NONE
@@ -72,10 +72,10 @@ hi Tag                 ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi Title               ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi Todo                ctermfg=NONE  ctermbg=NONE  cterm=bold
 hi Type                ctermfg=NONE  ctermbg=NONE  cterm=bold
-hi Underlined          ctermfg=NONE  ctermbg=NONE  cterm=NONE
+hi Underlined          ctermfg=NONE  ctermbg=NONE  cterm=UNDERLINE
 hi VertSplit           ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi Visual              ctermfg=NONE  ctermbg=NONE  cterm=reverse
-hi WarningMsg          ctermfg=124   ctermbg=NONE  cterm=NONE
+
 
 " Go {{{
 hi goBuiltins         ctermfg=blue    ctermbg=NONE  cterm=NONE
@@ -98,6 +98,9 @@ hi goStruct           ctermfg=grey   ctermbg=NONE  cterm=bold
 hi goStructDef        ctermfg=NONE  ctermbg=NONE  cterm=bold
 hi goType             ctermfg=NONE  ctermbg=NONE  cterm=NONE
 hi goUnsignedInts     ctermfg=NONE  ctermbg=NONE  cterm=NONE
+hi goCoverageNormalText ctermfg=NONE  ctermbg=NONE  cterm=NONE
+hi goCoverageUncover  ctermfg=RED ctermbg=NONE  cterm=NONE
+hi goCoverageCovered  ctermfg=GREEN ctermbg=NONE  cterm=NONE
 
 hi godocConstBlock  ctermfg=blue    ctermbg=NONE  cterm=NONE
 hi godocConst       ctermfg=NONE  ctermbg=NONE  cterm=NONE
