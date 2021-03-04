@@ -81,39 +81,38 @@ hi Visual       ctermfg=none  ctermbg=none cterm=reverse
 
 
 " Go {{{
-hi goBuiltins         ctermfg=blue    ctermbg=NONE  cterm=NONE
-hi goComment          ctermfg=grey   ctermbg=NONE  cterm=NONE
-hi goComplexes        ctermfg=NONE  ctermbg=NONE  cterm=NONE
-hi goConditional      ctermfg=NONE  ctermbg=NONE  cterm=bold
-hi goDeclaration      ctermfg=blue    ctermbg=NONE  cterm=bold
-hi goDirective        ctermfg=blue    ctermbg=NONE  cterm=bold
-hi goExtraType        ctermfg=NONE  ctermbg=NONE  cterm=NONE
-hi goFloats           ctermfg=NONE  ctermbg=NONE  cterm=NONE
-hi goFormatSpecifier  ctermfg=NONE  ctermbg=NONE  cterm=NONE
-hi goFunction         ctermfg=NONE  ctermbg=NONE  cterm=bold
-hi goLabel            ctermfg=NONE   ctermbg=NONE  cterm=bold
-hi goMethod           ctermfg=NONE   ctermbg=NONE cterm=bold
-hi goRepeat           ctermfg=NONE  ctermbg=NONE  cterm=bold
-hi goSignedInts       ctermfg=NONE  ctermbg=NONE  cterm=NONE
-hi goStatement        ctermfg=NONE  ctermbg=NONE  cterm=bold
-hi goString           ctermfg=grey   ctermbg=NONE  cterm=NONE
-hi goStruct           ctermfg=grey   ctermbg=NONE  cterm=bold
-hi goStructDef        ctermfg=NONE  ctermbg=NONE  cterm=bold
-hi goType             ctermfg=NONE  ctermbg=NONE  cterm=NONE
-hi goUnsignedInts     ctermfg=NONE  ctermbg=NONE  cterm=NONE
-hi goCoverageNormalText ctermfg=NONE  ctermbg=NONE  cterm=NONE
-hi goCoverageUncover  ctermfg=RED ctermbg=NONE  cterm=NONE
-hi goCoverageCovered  ctermfg=GREEN ctermbg=NONE  cterm=NONE
-
-hi godocConstBlock  ctermfg=blue    ctermbg=NONE  cterm=NONE
-hi godocConst       ctermfg=NONE  ctermbg=NONE  cterm=NONE
-hi godocFunction    ctermfg=NONE  ctermbg=NONE  cterm=bold
-hi godocMethod      ctermfg=NONE  ctermbg=NONE  cterm=bold
-hi godocMethodRec   ctermfg=blue    ctermbg=NONE  cterm=bold
-hi godocTitle       ctermfg=blue    ctermbg=NONE  cterm=bold
-hi godocType        ctermfg=blue    ctermbg=NONE  cterm=bold
-hi godocVarBlock    ctermfg=blue    ctermbg=NONE  cterm=NONE
-hi godocVar         ctermfg=blue    ctermbg=NONE  cterm=NONE
+hi goBuiltins           ctermfg=grey  ctermbg=none cterm=none
+hi goComment            ctermfg=grey  ctermbg=none cterm=none
+hi goComplexes          ctermfg=none  ctermbg=none cterm=none
+hi goConditional        ctermfg=none  ctermbg=none cterm=bold
+hi goDeclaration        ctermfg=grey  ctermbg=none cterm=bold
+hi goDirective          ctermfg=grey  ctermbg=none cterm=bold
+hi goExtraType          ctermfg=none  ctermbg=none cterm=none
+hi goFloats             ctermfg=none  ctermbg=none cterm=none
+hi goFormatSpecifier    ctermfg=none  ctermbg=none cterm=none
+hi goFunction           ctermfg=none  ctermbg=none cterm=bold
+hi goLabel              ctermfg=none  ctermbg=none cterm=bold
+hi goMethod             ctermfg=none  ctermbg=none cterm=bold
+hi goRepeat             ctermfg=none  ctermbg=none cterm=bold
+hi goSignedInts         ctermfg=none  ctermbg=none cterm=none
+hi goStatement          ctermfg=none  ctermbg=none cterm=bold
+hi goString             ctermfg=grey  ctermbg=none cterm=none
+hi goStruct             ctermfg=grey  ctermbg=none cterm=bold
+hi goStructDef          ctermfg=none  ctermbg=none cterm=bold
+hi goType               ctermfg=none  ctermbg=none cterm=none
+hi goUnsignedInts       ctermfg=none  ctermbg=none cterm=none
+hi goCoverageNormalText ctermfg=none  ctermbg=none cterm=none
+hi goCoverageUncover    ctermfg=red   ctermbg=none cterm=none
+hi goCoverageCovered    ctermfg=green ctermbg=none cterm=none
+hi godocConstBlock      ctermfg=grey  ctermbg=none cterm=none
+hi godocConst           ctermfg=none  ctermbg=none cterm=none
+hi godocFunction        ctermfg=none  ctermbg=none cterm=bold
+hi godocMethod          ctermfg=none  ctermbg=none cterm=bold
+hi godocMethodRec       ctermfg=grey  ctermbg=none cterm=bold
+hi godocTitle           ctermfg=grey  ctermbg=none cterm=bold
+hi godocType            ctermfg=grey  ctermbg=none cterm=bold
+hi godocVarBlock        ctermfg=grey  ctermbg=none cterm=none
+hi godocVar             ctermfg=grey  ctermbg=none cterm=none
 "}}}
 
 " Ruby {{{
